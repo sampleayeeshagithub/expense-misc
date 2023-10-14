@@ -11,7 +11,6 @@ data "aws_instance" "instance" {
   instance_id = "i-05613177c0fc29946"
 }
 
-
 resource "aws_route53_record" "jenkins" {
    name = "jenkins.ayeeshadevops75.online"
    type = "A"
