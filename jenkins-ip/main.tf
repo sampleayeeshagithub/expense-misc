@@ -20,7 +20,7 @@ resource "aws_route53_record" "jenkins" {
 }
 
 data "aws_instance" "artifactory" {
-  instance_id = "i-08a4d4e1606062ca7"
+  instance_id = "i-030921e336aa60f68"
 }
 
 resource "aws_route53_record" "artifactory" {
